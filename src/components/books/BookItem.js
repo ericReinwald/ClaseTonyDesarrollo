@@ -36,9 +36,7 @@ const Bookitem = ({
           <div>
             <p> El progreso de lectura es : {readingProgress + "%"}</p>
           </div>
-        ) : (
-          <p>No hay progreso de lectura</p>
-        )}
+        ) : undefined}
 
         {rating ? (
           <div>
